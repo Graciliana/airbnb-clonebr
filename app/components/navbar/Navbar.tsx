@@ -1,6 +1,6 @@
 import Container from "../Container";
 import Logo from './Logo'
-import {useRouter} from 'next/router'
+import Search from './Search'
 
 const Navbar = () => {
 	return (
@@ -17,8 +17,8 @@ const Navbar = () => {
   			  md:gap-0
   			  '
 					>
-						<Logo />
-					
+						<Logo />		
+						<Search />
 					</div>
 				</Container>
 			</div>
